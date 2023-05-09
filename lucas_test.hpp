@@ -57,7 +57,7 @@ inline int lucasTest(int n)
     // Array for random generator. This array
     // is to ensure one number is generated
     // only once
-    int random[n - 3];
+    int* random = new int[n - 3];
     for (int i = 0; i < n - 2; i++)
         random[i] = i + 2;
          
