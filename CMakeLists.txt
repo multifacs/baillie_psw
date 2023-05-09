@@ -6,5 +6,6 @@ set(SOURCES ${CMAKE_SOURCE_DIR}/baillie_bench.cpp
             ${CMAKE_SOURCE_DIR}/baillie_test.hpp 
             ${CMAKE_SOURCE_DIR}/lucas_test.hpp
             ${CMAKE_SOURCE_DIR}/rabin_miller.hpp
+			)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
